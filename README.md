@@ -1,9 +1,12 @@
 # Video Commerce Widget MVP
 
 <!-- AUTO:BADGES:START -->
+[![Release](https://img.shields.io/github/v/release/torihada-biz/mvp-video-commerce-biz?include_prereleases)](https://github.com/torihada-biz/mvp-video-commerce-biz/releases)
 <!-- AUTO:BADGES:END -->
 
-Last updated: <!-- AUTO:LAST_UPDATED:START --><!-- AUTO:LAST_UPDATED:END -->
+Last updated: <!-- AUTO:LAST_UPDATED:START -->
+Last updated: **2026-04-28 00:57 UTC** (commit: `b3ceb94`)
+<!-- AUTO:LAST_UPDATED:END -->
 
 ECサイト・LPに貼るだけで動く、TikTok風ショート動画コマースウィジェット。
 
@@ -185,6 +188,42 @@ npm run pages:deploy  # wrangler pages deploy で公開
 ## ディレクトリ構成
 
 <!-- AUTO:STRUCTURE:START -->
+```
+mvp-video-commerce-biz/
+├── .github
+│   └── workflows
+├── app
+│   ├── admin
+│   ├── api
+│   ├── embed
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   └── ui
+├── lib
+│   ├── supabase
+│   └── utils.ts
+├── supabase
+│   ├── schema-dev.sql
+│   └── schema.sql
+├── types
+│   └── database.ts
+├── GIT_SETUP.md
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── PROJECT_STRUCTURE.md
+├── QUICK_START.md
+├── README.md
+├── setup-git.ps1
+├── SETUP.md
+├── START_HERE.md
+├── SUPABASE_SETUP.md
+├── tailwind.config.ts
+└── tsconfig.json
+```
 <!-- AUTO:STRUCTURE:END -->
 
 ```
